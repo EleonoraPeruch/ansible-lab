@@ -1,7 +1,4 @@
 ---
-vars:
-  war_file: app-v1.0.war
-
 - name: Copy application WAR file to host
   copy:
     src: "{{ war_file }}"
