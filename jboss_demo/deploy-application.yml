@@ -3,6 +3,8 @@
 - name: Deploy Simple Application to JBoss Server
   hosts: localhost
   gather_facts: False
+  vars:
+    war_file: app-v1.0.war
 
   roles:
     - java-app
