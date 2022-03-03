@@ -2,7 +2,7 @@
 - name: Copy application WAR file to host
   copy:
     src: "{{ war_file }}"
-    dest: /tmp
+    dest: "/tmp"
 
 - name: Deployment of new application
   jboss:
